@@ -4,7 +4,7 @@
 This project focuses on the assignment of layover values within a dataset of flight routes. The primary goal is to enhance the dataset by feature engineering, specifically by calculating and assigning layover times using a newly created variable, `total_air_time`. The project leverages Python libraries such as `pandas`, `numpy`, `matplotlib`, and `seaborn` for data manipulation, analysis, and visualization.
 
 ## Layover Assignment
-Layovers are assigned by calculating the difference between the total air time of consecutive flight segments (total_dur). The idea is to determine how much time a flight spends in the air by creating a bench of air time by analyzing the non-stop flights. The newly created `total_air_time` variable serves as the foundation for these calculations. By analyzing this data, the project assigns a specific layover duration to each stop along the flight route, providing valuable insights into travel patterns and potential delays.
+Layovers are assigned by calculating the difference between the total air time of consecutive flight segments (total_dur). The idea is to subtract total_airtime from total_duration and compare and contrast the information we have on layover times, non-stop flights, and total stops. The newly created `total_air_time` variable serves as the foundation for these calculations. By analyzing this data, the project assigns a specific layover duration to each stop along the flight route, providing valuable insights into travel patterns and potential delays.
 
 ## Key Features & Code Explanation
 
